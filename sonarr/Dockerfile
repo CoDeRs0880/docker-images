@@ -37,9 +37,9 @@ LABEL org.freenas.interactive="false" \
       ]"                            \  
       org.freenas.static-volumes="[					\
           {								\
-              \"container_path\": \"/dev/rtc\",				\
+              \"container_path\": \"/dev/rtc\",                         \
               \"host_path\": \"/dev/rtc\",				\
-              \"readonly\": \"true\"					\
+              \"readonly\": true					\
           }								\
       ]" 
 
