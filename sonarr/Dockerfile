@@ -39,7 +39,7 @@ LABEL org.freenas.interactive="false" \
           {								\
               \"container_path\": \"/dev/rtc\",                         \
               \"host_path\": \"/dev/rtc\",				\
-              \"readonly\": true					\
+              \"readonly\": \"true\"      				\
           }								\
       ]" 
 
